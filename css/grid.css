@@ -1,0 +1,114 @@
+html {
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: lightgray;
+}
+
+.hotbar{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    padding-top:20px;
+    align-content: center;
+}
+
+/* v ==== GRID ==== v */
+.grid-1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+}
+
+.grid-12 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 100px);
+}
+/* ^ ==== END GRID ==== ^ */
+
+
+.name {
+    font-size: 1.6em;
+    display: grid;
+    grid-row: 1;
+    grid-column: 5/ span 4;
+    text-align: center;
+}
+
+.homep{
+    grid-row: 2;
+    grid-column: 8/ -1;
+}
+
+/* v ==== Bio ==== v */
+#biob{
+    grid-row: 2;
+    grid-column: 7/12;
+}
+/* ^ ====END Bio ==== ^ */
+
+/* v ==== Recreationals ==== v */
+#recroom1{
+    grid-row: 1;
+    grid-column: 1/3;
+    padding-left:10px;
+    padding-bottom: -20px;
+}
+
+#recroom2{
+    grid-row: 1;
+    grid-column: 4/6;
+    padding-bottom: -20px;
+}
+
+#recroom3{
+    grid-row: 1;
+    grid-column: 7/9;
+    padding-bottom: -20px;
+}
+
+#recroom4{
+    grid-row: 1;
+    grid-column: 10/12;
+    padding-bottom: -20px;
+}
+
+.scroll {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+  
+.card {
+    display: inline-block;
+    width: 1fr;
+    height: 1fr;
+    background-color: #a0829e;
+}
+
+.image{
+    height:400px;
+    widows: 325px;
+    margin: 0px;
+}
+
+/* ^ ====  END Recreationals ==== ^ */
+
+/*  v ==== RESUME ==== v */
+
+.res1{
+    grid-column: 4;
+    grid-row: 1/-1;
+}
+
+/*  ^ ==== END RESUME ==== ^ */
+
+/*  v ==== Animation Station ==== v */
+
+.hotbar:hover{
+    background-color: darkgray;
+}
+
+/* ^ ==== END Animation Station ==== ^ */
